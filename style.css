@@ -1,0 +1,83 @@
+#navbar-brand{
+    font-family: 'American Captain';
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 56px;
+    color: #FFFFFF;
+    padding-left: 5%;  
+}
+
+#nav{
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#nav-button{
+    color: #FFFFFF;
+    border: 2px solid white;
+    padding: 5px 30px;
+    border-radius: 8px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+div.container div.col div.row h1{
+    width: 60%;
+    margin-right: -15%;
+    text-align: right;
+} 
+
+div.container div.col div.row h3{
+    width: 25%;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: right;
+    margin-right: -15%;
+} 
+
+div.container div.col div.row button{
+    border: 1px solid white;
+    padding: 5px 30px;
+    border-radius: 8px;
+    width: auto;
+    background-color: none;
+}
+
+#h1{
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    color: white;
+}
+
+#h2{
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+}
+
+#h3{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+
+#p{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
