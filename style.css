@@ -1,36 +1,44 @@
-#navbar-brand{
+body{
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 200vh;
+}
+
+.navbar-brand{
     font-family: 'American Captain';
     font-weight: 400;
-    font-size: 56px;
+    font-size: 56px !important;
     line-height: 56px;
     color: #FFFFFF;
     padding-left: 5%;  
 }
 
-#nav{
+.nav-link{
     font-family: 'SF Pro Display';
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
-    color: #FFFFFF;
-    text-decoration: none;
+    color: #FFFFFF !important;
 }
 
-#nav-button{
-    color: #FFFFFF;
-    border: 2px solid white;
-    padding: 5px 30px;
-    border-radius: 8px;
-    font-family: 'SF Pro Display';
+.container{
+    margin-right: 50px !important;
+    margin-top: 100px;
+}
+
+.btn{
+    color: #FFFFFF !important;
+    border: 2px solid white !important;
+    padding: 5px 30px !important;
+    border-radius: 8px !important;
     font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 24px !important;
+    margin-right: 50px;
 }
 
 div.container div.col div.row h1{
     width: 60%;
-    margin-right: -15%;
     text-align: right;
 } 
 
@@ -42,38 +50,36 @@ div.container div.col div.row h3{
     font-size: 32px;
     line-height: 38px;
     text-align: right;
-    margin-right: -15%;
 } 
 
 div.container div.col div.row button{
-    border: 1px solid white;
     padding: 5px 30px;
-    border-radius: 8px;
     width: auto;
-    background-color: none;
+    margin-top: 20px;
+    margin-right: 0 !important;
 }
 
-#h1{
+h1{
     font-family: 'American Captain';
     font-style: normal;
-    font-weight: 400;
-    font-size: 130px;
+    font-weight: 400 !important;
+    font-size: 130px !important;
     color: white;
 }
 
-#h2{
+h2{
     font-family: 'SF Pro Display';
     font-weight: 700;
 }
 
-#h3{
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 400;
+h3{
+    font-family: 'SF Pro Display' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
     color: white;
 }
 
-#p{
+p{
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 500;
