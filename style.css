@@ -3,6 +3,8 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 200vh;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .navbar-brand{
@@ -57,6 +59,7 @@ div.container div.col div.row button{
     width: auto;
     margin-top: 20px;
     margin-right: 0 !important;
+    margin-bottom: 12%;
 }
 
 h1{
@@ -85,5 +88,293 @@ p{
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
+    color: #FFFFFF;
+}
+
+.about-us{
+    background-color: #161616;
+}
+
+.about-us h1{
+    text-align: center;
+}
+
+.about-us div.container div.row div.col p{
+    margin-left: -100%;
+    margin-top: 10%;
+}
+
+.about-us img{
+    margin-bottom: 50px;
+}
+
+.about-us h2{
+    font-size: 200px;
+    line-height: 239px;
+    text-transform: lowercase;
+    color: #373737;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 0;
+    top: 1470px;
+    right: 0;
+}
+
+.benefits{
+    background-color: #1A191A;
+}
+
+.benefits img#circle-line{
+  position: absolute;
+}
+
+.benefits img#circle-line2{
+    position: absolute;
+    top: 2400px;
+    left: 1695px;
+}
+
+.structure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.structure h1{
+    font-size: 110px;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.structure h3{
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 0;
+}
+
+.structure2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.structure2 div{
+    width: 430px;
+    height: 450px;
+    border-radius: 16px;
+    margin-top: 120px;
+    margin-right: 80px;
+}
+
+.card{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.card img{
+    margin-top: -150px;
+}
+
+.card h2{
+    font-size: 32px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.card p{
+    padding: 0 20px 0 20px;
+}
+
+.card a{
+    color: #FFFFFF;
+    font-family: 'SF Pro Display';
+    font-size: 24px;
+}
+
+#green{
+    background: rgba(0, 221, 168, 0.5);
+}
+
+#red{
+    background: rgba(207, 41, 41, 0.6);
+}
+
+#blue{
+    background: rgba(0, 88, 221, 0.6);
+}
+
+.cars{
+    background-color: #161616;
+}
+
+.cars h1{
+    text-align: center;
+    margin: 0 50px 50px 20px;
+    font-size: 110px;
+}
+
+.cars p{
+    text-align: center;
+    margin: 20px 50px 2em;
+}
+
+.cars div.structure2{
+    width: 97%;
+}
+
+.amazed{
+    background-color: #1A191A;
+    padding: 3%;
+}
+
+.amazed div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.amazed div h1{
+    width: 40%;
+    margin: 0px 0px 20px 0px;
+    z-index: 1;
+}
+
+.amazed div h3{
+    font-size: 32px;
+    line-height: 38px;
+    width: 23%;
+}
+
+.amazed video{
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+}
+
+.star{
+    position: absolute;
+    top: 3600px;
+    left: 0;
+    z-index: 0;
+}
+
+.contact-us{
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 3% 5%;
+}
+
+.contact-us h2{
+    font-size: 245px;
+    line-height: 295px;
+    color: #373737;
+    z-index: 0;
+    position: absolute;
+    left: -30px;
+    top: 4700px;
+    opacity: 0.3;
+}
+
+.contact-us h1{
+    font-size: 120px;
+    margin: 0;
+}
+
+.contact-us h3{
+    font-size: 30px;
+    line-height: 50px;
+    width: 57%;
+    margin: 0;
+}
+
+.contact-us div.structure{
+    display: grid;
+    grid-template-rows: repeat(3,100px);
+    grid-template-columns: repeat(2,300px);
+}
+
+.contact-us div.structure input{
+    width: 95%;
+    padding: 0 0 5px 0;
+    background-color: #161616;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.contact-us div.structure input::placeholder{
+    color: white;
+}
+
+.contact-us div.structure select{
+    border: none;
+    background: #161616;
+    border-bottom: 1px solid white;
+    padding: 0 0 5px 0;
+    color: white;
+}
+
+.contact-us div.structure input.text{
+    width: 200%;
+}
+
+.contact-us input[type="submit"]{
+    background-color: #161616;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+
+.map iframe{
+    width: 100%;
+}
+
+footer{
+    margin-top: -10px;
+    padding: 50px 0;
+    display: grid;
+    grid-template-rows:repeat(8,30px) ;
+    grid-template-columns: repeat(5,15%);
+    align-items: center;
+    justify-content: center;
+    background-color: #161616;
+}
+
+footer div{
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 11px;
+    color: #BDBDBD;
+}
+
+footer div a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer div.logo{
+    font-family: 'American Captain';
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100px;
+    color: #FFFFFF;
+    width: 130%;
+    margin-left: -100px;
+}
+
+footer div.first-row{
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 32px;
+    letter-spacing: -0.019em;
+    text-transform: capitalize;
     color: #FFFFFF;
 }
